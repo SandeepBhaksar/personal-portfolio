@@ -1,0 +1,56 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+}
+
+.nav-left {
+    display: flex;       
+    align-items: center; 
+    padding: 10px;  
+    padding-top: 5px;  
+    padding-left: 340px;   
+    cursor: pointer;
+}
+
+.nav-logo {
+    width: 124px;
+    height: auto;
+    display: block;
+    transform: translateY(-40px);  
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    transform: translate(-500px, -35px); 
+}
+
+.nav-right ul {
+    list-style: none;
+    margin: 0;       
+    padding: 0;      
+    display: flex;
+    font-size: 17.5px;
+}
+
+.nav-right ul li {
+    margin-left: 15px;
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    min-width: 60px; 
+}
+
+.theme-switcher {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
