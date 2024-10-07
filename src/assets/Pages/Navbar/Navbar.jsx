@@ -16,6 +16,11 @@ const Navbar = () => {
         <li>Work</li>
         <li>Contact</li>
         <li><ThemeSwitcher/></li>
+        <li>
+        <a href="./CV/Sandeep_Bhaskar_Resume.pdf" download="Sandeep_Bhaskar_Resume.pdf" className='cv-link'>
+            <button className='cv-dwnld'>Download CV</button>
+        </a>
+        </li>
       </ul>
     </div>
     </div>
