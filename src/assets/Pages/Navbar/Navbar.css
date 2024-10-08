@@ -3,77 +3,63 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5px 10px; 
     z-index: 100;
     top: 0;
     width: 100%;
+    background-color: white;
+    border-bottom: 10px;
+    height: 100px; 
 }
 
 .nav-left {
     display: flex;       
     align-items: center; 
     padding: 10px;  
-    padding-top: 5px;  
-    padding-left: 340px;   
     cursor: pointer;
 }
 
 .nav-logo {
-    width: 124px;
+    width: 144px;
     height: auto;
-    display: block;
-    transform: translateY(-40px);  
+    transform: translate(250px, -15px);
+
 }
 
 .nav-right {
     display: flex;
     align-items: center;
     margin-left: 0;
-    transform: translate(-500px, -35px); 
-}
-
-.nav-right ul {
+    transform: translateX(-350px);
     list-style: none;
-    margin: 0;       
-    padding: 0;      
+    margin: 0;
+    padding: 0;
     display: flex;
-    font-size: 17.5px;
+    font-size: 16px;
 }
 
-.nav-right ul li {
-    margin-left: 15px;
+.nav-right {
+
+}
+
+.li-component {
+    margin-left: 10px;
     cursor: pointer;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    min-width: 60px; 
-}
-
-.theme-switcher {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-}
-
-.cv-dwnld {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5px 5px;
-    font-size: 15px;
-    border-radius: 15px;
-    border: 2px solid #000;
-    padding: 7.5px 7.5px; 
-    transition: transform 0.3s ease, background-color 0.3s ease; 
+    min-width: 50px;
     text-decoration: none;
+    color: black;
 }
 
-.cv-link{
-    text-decoration: none;
+.cv-dwnld {
+    padding: 5px 7.5px;
+    font-size: 14px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
 }
 
 .cv-dwnld:hover {
     transform: scale(1.1);
-    background-color: #e0e0e0; 
-    border-color: #333; 
 }

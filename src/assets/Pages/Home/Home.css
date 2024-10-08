@@ -2,38 +2,62 @@
     padding-top: 0px;
 }
 
-.main-page {
-    text-align: left;
+.main-page-wrapper {
+    display: flex; /* Make the main wrapper a flex container */
+    justify-content: space-between; /* Add space between .main-page and .my-image */
+
     margin-left: 350px;  
     margin-top: 20px;
     padding-top: 150px;
 }
 
-h1{
+.main-page {
+    text-align: left;
+}
+
+h1 {
     font-size: 3rem;
 }
-p{
-    font-size: 1.20rem;
+
+p {
+    font-size: 1.2rem;
 }
 
 .available-text {
     display: flex;
     align-items: center;
-  }
-  
-  .available-img {
-    width: 20px; 
+}
+
+.available-img {
+    width: 20px;
     height: auto;
     margin-right: 25px;
-  }
-  .address-text {
+}
+
+.address-text {
     display: flex;
     align-items: center;
-  }
+}
 
-  .location-icon {
+.location-icon {
     width: 15px;
     height: auto;
     margin-right: 25px;
     margin-left: 3px;
-  }
+}
+
+.my-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px; /* Add spacing between text and image */
+    width: 0px; /* Adjust the size if needed */
+    transform: translateX(-450px);
+}
+
+.my-image img {
+    width: 225px;
+    height: auto;
+    border-radius: 22px;
+    box-shadow: 55px 15px 55px rgba(99, 99, 99, 0.8); /* Adjusting the shadow */
+}

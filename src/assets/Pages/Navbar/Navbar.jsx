@@ -8,21 +8,17 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className='nav-left'>
-        <img src={logo} alt='logo' className='nav-logo' />
+       <a href="/"> <img src={logo} alt='logo' className='nav-logo' /> </a>
       </div>
 
       <div className="nav-right">
-        <ul>
-          <li>About</li>
-          <li>Work</li>
-          <li>Contact</li>
-          <li><ThemeSwitcher /></li>
-          <li>
-            <a href={Resume} className='cv-link' download> {/* Added download attribute */}
-              <button className='cv-dwnld'>Download CV</button>
-            </a>
-          </li>
-        </ul>
+        <a href="#about" className='li-component'>About</a>
+        <a href="#work" className='li-component'>Work</a>
+        <a href="#contact" className='li-component'>Contact</a>
+        <a href="#" className='li-component'><ThemeSwitcher /></a>
+        <a href={Resume} className='cv-link' download>
+          <button className='cv-dwnld'>Download CV</button>
+        </a>
       </div>
     </div>
   );
