@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '/logo.png';
 import './Navbar.css';
 import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher';
-import Resume from '../../../CV/Sandeep_Bhaskar_Resume.pdf'; // Ensure the filename is correct
+import Resume from '../../../CV/Sandeep_Bhaskar_Resume.pdf';
 
 const Navbar = () => {
   return (

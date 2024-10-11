@@ -3,9 +3,8 @@
 }
 
 .main-page-wrapper {
-    display: flex; /* Make the main wrapper a flex container */
-    justify-content: space-between; /* Add space between .main-page and .my-image */
-
+    display: flex; 
+    justify-content: space-between;
     margin-left: 350px;  
     margin-top: 20px;
     padding-top: 150px;
@@ -50,8 +49,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 0px; /* Add spacing between text and image */
-    width: 0px; /* Adjust the size if needed */
+    margin-left: 0px; 
+    width: 0px; 
     transform: translateX(-450px);
 }
 
@@ -59,5 +58,6 @@ p {
     width: 225px;
     height: auto;
     border-radius: 22px;
-    box-shadow: 55px 15px 55px rgba(99, 99, 99, 0.8); /* Adjusting the shadow */
+    box-shadow: 55px 15px 55px rgba(99, 99, 99, 0.8);
 }
+

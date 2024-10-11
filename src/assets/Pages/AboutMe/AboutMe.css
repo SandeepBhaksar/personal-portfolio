@@ -3,7 +3,8 @@
     flex-direction: column;  
     justify-content: center;
     align-items: center;
-    margin-top: 225px;
+    margin-top: 255px;
+    margin-bottom: 0px;
 }
 
 .header {
@@ -23,10 +24,11 @@
 }
 
 .image img {
-    max-width: 350px;  
+    max-width: 400px;  
     height: auto;
     border-radius: 10px;
-    box-shadow: 10px 14px 18px rgba(0, 0, 0, 0.5); 
+    box-shadow: 55px 15px 55px rgba(99, 99, 99, 0.8);
+    margin-right: 300px;
 }
 
 .info {

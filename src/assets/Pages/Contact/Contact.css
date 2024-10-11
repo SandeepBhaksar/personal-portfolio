@@ -1,0 +1,15 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    margin-top: 225px;
+}
+
+.header {
+    font-size: 20px;
+    background-color: rgb(186, 199, 199);
+    padding: 10px 45px;
+    border-radius: 30px;
+    text-align: center;
+}
