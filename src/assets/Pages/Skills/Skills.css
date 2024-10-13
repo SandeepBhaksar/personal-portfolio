@@ -24,9 +24,11 @@
 .tools {
     display: flex;
     flex-wrap: wrap;
-    gap: 145px; 
+    gap: 140px;
+    row-gap: 80px; 
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 .tools ul {
