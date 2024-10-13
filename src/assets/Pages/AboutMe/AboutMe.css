@@ -29,6 +29,7 @@
     border-radius: 10px;
     box-shadow: 55px 15px 55px rgba(99, 99, 99, 0.8);
     margin-right: 300px;
+    margin-top: 50px;
 }
 
 .info {
@@ -44,4 +45,13 @@
 
 .info p {
     margin-bottom: 15px;
+}
+
+.quick-bits{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    font-size: 18px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
